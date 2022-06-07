@@ -6,6 +6,5 @@
         public int CategoryId { get; set; }
         public Pokemon Pokemon { get; set; }
         public Category Category { get; set; }
-        public ICollection<PokemonCategory> PokemonCategories { get; set; }
     }
 }
